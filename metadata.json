@@ -1,0 +1,5 @@
+{
+  "name": "AI-Powered BCI for Caretaker Communication",
+  "description": "A web application that serves as a real-time interface for caregivers to receive alerts generated from a simulated AI-powered Brain-Computer Interface (BCI). It visualizes patient needs like food, water, and emergencies, decoded from simulated brain activity.",
+  "requestFramePermissions": []
+}

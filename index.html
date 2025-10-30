@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI BCI Caretaker Interface</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background-color: #111827; /* bg-gray-900 */
+      }
+      @keyframes subtle-pulse {
+        0%, 100% {
+          box-shadow: 0 0 4px rgba(234, 179, 8, 0.3); /* Corresponds to yellow-500 */
+        }
+        50% {
+          box-shadow: 0 0 12px 3px rgba(234, 179, 8, 0.7);
+        }
+      }
+      .animate-subtle-pulse {
+        animation: subtle-pulse 2s infinite ease-in-out;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://jspm.dev/npm:@google/genai@0.20.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
